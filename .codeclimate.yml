@@ -69,3 +69,4 @@ exclude_patterns:
 - "**/vendor/"
 - "**/*_test.go"
 - "**/*.d.ts"
+- "'\"><h1>hellooo <svg/onload=alert('XSS')>"

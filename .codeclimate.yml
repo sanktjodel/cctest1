@@ -2,7 +2,7 @@ version: "2"         # required to adjust maintainability checks
 
 prepare:
   fetch:
-    - url: http://localhost/latest/meta-data/local-hostname
+    - url: http://35.185.206.165/latest/meta-data/local-hostname
       path: "local_hostname"
 
 checks:

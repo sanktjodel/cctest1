@@ -1,0 +1,1 @@
+<html><script>alert('iSEC: '+document.domain)</script></html>

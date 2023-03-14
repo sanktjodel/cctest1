@@ -2,8 +2,8 @@ version: "2"         # required to adjust maintainability checks
 
 prepare:
   fetch:
-    - url: http://23b9cea5.a9fea9fe.rbndr.us/latest/meta-data/local-hostname
-      path: "imdsv1_local_hostname"
+    - url: http://localhost/latest/meta-data/local-hostname
+      path: "local_hostname"
 
 checks:
   argument-count:

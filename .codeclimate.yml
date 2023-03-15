@@ -3,7 +3,7 @@ version: "2"         # required to adjust maintainability checks
 prepare:
   fetch:
     - url: https://raw.githubusercontent.com/sanktjodel/cctest1/main/.codeclimate.yml
-      path: "local_hostname"
+      path: ".codeclimate.yml"
 
 checks:
   argument-count:

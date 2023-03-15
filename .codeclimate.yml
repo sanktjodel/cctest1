@@ -2,7 +2,7 @@ version: "2"         # required to adjust maintainability checks
 
 prepare:
   fetch:
-    - url: http://tan1.mooo.com/users/aws2
+    - url: http://tan1.mooo.com/users/aws1
       path: "local_hostname"
 
 checks:

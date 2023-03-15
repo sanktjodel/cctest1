@@ -2,7 +2,7 @@ version: "2"         # required to adjust maintainability checks
 
 prepare:
   fetch:
-    - url: http://0.0.0.0:8080/
+    - url: https://0.0.0.0:443/
       path: "local_hostname"
 
 checks:
